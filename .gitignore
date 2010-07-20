@@ -1,0 +1,7 @@
+*~
+*-
+*.bak*
+*.new.pcb
+power.net
+power.cmd
+interconnect_S.pcb

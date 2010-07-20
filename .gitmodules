@@ -1,0 +1,6 @@
+[submodule "components"]
+	path = components
+	url = ../components
+[submodule "sric"]
+	path = sric
+	url = ../interconnect-hw

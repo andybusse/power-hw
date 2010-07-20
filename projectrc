@@ -1,0 +1,4 @@
+schematics power.sch
+output-name power
+elements-dir ./components/pkg
+

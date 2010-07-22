@@ -62,6 +62,10 @@ T 29700 65100 5 10 1 1 0 0 1
 refdes=J?
 T 29700 64900 5 10 1 1 0 0 1
 value=sr-cn-pjack
+T 29700 63900 5 10 0 0 0 0 1
+footprint=pwr_jack
+T 29500 64400 5 20 1 1 90 3 1
+comment=Charger
 }
 N 31300 64000 32600 64000 4
 {

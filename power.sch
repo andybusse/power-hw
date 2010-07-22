@@ -24,5 +24,7 @@ T 31900 62800 5 10 1 1 0 0 1
 value=sr-cn-fuse-ato
 T 31800 62400 5 10 0 1 0 0 1
 footprint=fuse_ato_1
+T 31800 62200 5 10 1 1 0 0 1
+comment=15A (Blue) automotive ATO blade fuse
 }
 N 31800 62500 31400 62500 4

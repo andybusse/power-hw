@@ -28,3 +28,8 @@ T 31800 62200 5 10 1 1 0 0 1
 comment=15A (Blue) automotive ATO blade fuse
 }
 N 31800 62500 31400 62500 4
+N 32700 62500 34000 62500 4
+{
+T 33400 62500 5 10 1 1 0 0 1
+netname=Vbatt
+}

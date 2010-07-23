@@ -1,4 +1,4 @@
-v 20100214 2
+v 20091004 2
 C 29700 62000 1 0 0 connector2-1.sym
 {
 T 29900 63000 5 10 0 0 0 0 1
@@ -315,3 +315,49 @@ N 34300 58100 37100 58100 4
 T 35300 58100 5 10 1 1 0 0 1
 netname=12V_SRIC_OUT
 }
+C 50700 65000 1 0 1 connector2-1.sym
+{
+T 50500 66000 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 50700 66000 5 10 1 1 0 6 1
+refdes=J?
+T 50700 65800 5 10 1 1 0 6 1
+value=sr-cn-camcon2w
+T 50700 65000 5 10 0 1 0 6 1
+footprint=camcon2
+T 50800 65400 5 20 1 1 270 3 1
+comment=Motor 1
+}
+C 50700 63500 1 0 1 connector2-1.sym
+{
+T 50500 64500 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 50700 64500 5 10 1 1 0 6 1
+refdes=J?
+T 50700 64300 5 10 1 1 0 6 1
+value=sr-cn-camcon2w
+T 50700 63500 5 10 0 1 0 6 1
+footprint=camcon2
+T 50800 63900 5 20 1 1 270 3 1
+comment=Motor 2
+}
+C 50700 62000 1 0 1 connector2-1.sym
+{
+T 50500 63000 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 50700 63000 5 10 1 1 0 6 1
+refdes=J?
+T 50700 62800 5 10 1 1 0 6 1
+value=sr-cn-camcon2w
+T 50700 62000 5 10 0 1 0 6 1
+footprint=camcon2
+T 50800 62400 5 20 1 1 270 3 1
+comment=Motor 3
+}
+N 49000 65500 48600 65500 4
+N 48600 65500 48600 62500 4
+N 48600 62500 49000 62500 4
+N 49000 64000 48600 64000 4
+C 48900 61900 1 0 0 gnd-1.sym
+C 48900 63400 1 0 0 gnd-1.sym
+C 48900 64900 1 0 0 gnd-1.sym

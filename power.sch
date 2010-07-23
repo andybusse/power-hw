@@ -382,12 +382,12 @@ C 43800 69800 1 0 0 dual-opamp-1.sym
 {
 T 44000 72100 5 10 0 0 0 0 1
 device=DUAL_OPAMP
-T 44000 70700 5 10 1 1 0 0 1
+T 44000 70900 5 10 1 1 0 0 1
 refdes=U?
-T 44000 71700 5 10 0 0 0 0 1
-footprint=SO8
 T 44000 72300 5 10 0 0 0 0 1
 symversion=0.2
+T 44000 70700 5 10 1 1 0 0 1
+value=sr-ic-lm2904
 }
 C 41400 69800 1 0 0 dual-opamp-1.sym
 {
@@ -395,12 +395,12 @@ T 41600 72100 5 10 0 0 0 0 1
 device=DUAL_OPAMP
 T 42000 70800 5 10 1 1 0 0 1
 refdes=U?
-T 41600 71700 5 10 0 0 0 0 1
-footprint=SO8
 T 41600 72300 5 10 0 0 0 0 1
 symversion=0.2
 T 41400 69800 5 10 0 0 0 0 1
 slot=2
+T 42000 70600 5 10 1 1 0 0 1
+value=sr-ic-lm2904
 }
 C 40800 71400 1 270 0 resistor-2.sym
 {

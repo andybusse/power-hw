@@ -1317,6 +1317,10 @@ T 68900 74000 5 10 0 0 0 6 1
 device=CONNECTOR_40
 T 67000 70250 5 10 1 1 0 0 1
 refdes=J?
+T 69000 63200 5 10 0 1 0 0 1
+footprint=fpc40-1.fp
+T 68900 63400 5 10 1 1 0 0 1
+value=sr-cn-fpc40-0.5mm-bottom
 }
 C 67500 71300 1 0 1 LCD-BL.sym
 {
@@ -1324,6 +1328,10 @@ T 67500 72500 5 10 0 0 0 6 1
 device=CONNECTOR_2
 T 67000 72050 5 10 1 1 0 0 1
 refdes=J?
+T 67500 71300 5 10 0 1 0 0 1
+footprint=fpc4-1.fp
+T 66700 71100 5 10 1 1 0 0 1
+value=sr-cn-fpc4-0.5mm-top
 }
 C 68100 62800 1 0 0 gnd-1.sym
 N 67700 63300 67700 63100 4

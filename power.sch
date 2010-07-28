@@ -621,21 +621,25 @@ netname=3V3
 }
 C 53500 65300 1 0 0 BB-Exp.sym
 {
-T 55700 71550 5 10 1 1 0 6 1
+T 55700 71750 5 10 1 1 0 6 1
 refdes=U?
 T 53500 72400 5 10 0 0 0 0 1
 device=BeagleBoard
 T 53500 65300 5 10 0 0 0 0 1
 footprint=beagleboard
+T 55450 71550 5 10 1 1 0 0 1
+value=sr-asm-beagleboard
 }
 C 58500 62200 1 0 0 BB-LCD.sym
 {
-T 60900 71500 5 10 1 1 0 6 1
+T 60900 71700 5 10 1 1 0 6 1
 refdes=U?
 T 58900 72100 5 10 0 0 0 0 1
 device=BeagleBoard
 T 58500 62200 5 10 0 0 0 0 1
 footprint=beagleboard
+T 60650 71550 5 10 1 1 0 0 1
+value=sr-asm-beagleboard
 }
 N 54400 71800 54400 72100 4
 N 54400 72100 54800 72100 4

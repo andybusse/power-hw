@@ -2186,8 +2186,12 @@ C 52600 57300 1 0 0 piezo-1.sym
 {
 T 52600 58400 5 10 0 0 0 0 1
 device=BUZZER
-T 52800 58100 5 10 1 1 0 0 1
+T 53100 58000 5 10 1 1 0 0 1
 refdes=X?
+T 53100 57800 5 10 1 1 0 0 1
+value=sr-piezo-kmtg1603
+T 52600 57300 5 10 0 1 0 0 1
+footprint=piezo_1
 }
 C 51300 57000 1 0 0 resistor-2.sym
 {
@@ -2216,3 +2220,7 @@ N 52700 57100 52700 57300 4
 N 51300 58300 52700 58300 4
 N 52700 58300 52700 58100 4
 C 52600 55900 1 0 0 gnd-1.sym
+T 53300 57000 9 10 1 0 0 0 3
+Use 330R resistor to P1.6 for differential
+drive or 330R resistor to GND for single-
+ended drive.

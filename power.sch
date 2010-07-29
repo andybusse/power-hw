@@ -2224,3 +2224,28 @@ T 53300 57000 9 10 1 0 0 0 3
 Use 330R resistor to P1.6 for differential
 drive or 330R resistor to GND for single-
 ended drive.
+N 52100 52400 51300 52400 4
+{
+T 51400 52400 5 10 1 1 0 0 1
+netname=TX_D
+}
+N 52100 52100 51300 52100 4
+{
+T 51400 52100 5 10 1 1 0 0 1
+netname=RX_D
+}
+N 52100 50900 51300 50900 4
+{
+T 51400 50900 5 10 1 1 0 0 1
+netname=TX_EN
+}
+N 51800 57700 51300 57700 4
+{
+T 51400 57700 5 10 1 1 0 0 1
+netname=TI
+}
+N 51800 52700 51300 52700 4
+{
+T 51400 52700 5 10 1 1 0 0 1
+netname=TO
+}

@@ -2337,3 +2337,48 @@ netname=BB_RX
 T 52400 51500 9 10 1 0 0 0 2
 The BB TX line connects to the MSP RX line
 and vice versa.
+C 56000 48000 1 180 1 pmos-4.sym
+{
+T 56600 47500 5 10 0 0 180 6 1
+device=PMOS_TRANSISTOR
+T 56600 47600 5 10 1 1 0 0 1
+refdes=Q?
+T 56600 47400 5 10 1 1 0 0 1
+value=sr-fet-p-bss84lt1g
+T 56000 48000 5 10 0 1 0 0 1
+footprint=SOT23
+}
+C 56300 47200 1 270 0 led-1.sym
+{
+T 56900 46400 5 10 0 0 270 0 1
+device=LED
+T 57000 46800 5 10 1 1 0 0 1
+refdes=LED?
+T 57100 46400 5 10 0 0 270 0 1
+symversion=0.1
+T 57000 46600 5 10 1 1 0 0 1
+value=sr-led-red-plcc2
+T 56300 47200 5 10 0 1 0 0 1
+footprint=PLCC2
+T 57000 46400 5 10 1 1 0 0 1
+comment=Token
+}
+C 56400 46300 1 270 0 resistor-2.sym
+{
+T 56750 45900 5 10 0 0 270 0 1
+device=RESISTOR
+T 56700 45900 5 10 1 1 0 0 1
+refdes=R?
+T 56700 45700 5 10 1 1 0 0 1
+value=sr-r-100
+T 56400 46300 5 10 0 1 270 0 1
+footprint=sr_0603
+}
+C 56400 45100 1 0 0 gnd-1.sym
+N 57000 48000 56500 48000 4
+{
+T 56600 48000 5 10 1 1 0 0 1
+netname=3V3
+}
+N 56000 47800 55200 47800 4
+N 55200 47800 55200 49000 4

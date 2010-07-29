@@ -2268,12 +2268,14 @@ netname=MSP_RESET
 N 47500 58000 47500 58100 4
 C 45500 50000 1 0 1 msp430-4wire.sym
 {
-T 45200 53200 5 10 1 1 0 6 1
+T 44000 53150 5 10 1 1 0 6 1
 refdes=J?
 T 45200 53500 5 10 0 0 0 6 1
 device=MSP430-4WIRE
 T 45200 53900 5 10 0 0 0 6 1
-footprint=not done yet
+footprint=header2x7_box_1
+T 44200 53150 5 10 1 1 0 0 1
+value=sr-cn-header2x7-box
 }
 C 45400 49800 1 0 0 gnd-1.sym
 N 45500 50900 47500 50900 4

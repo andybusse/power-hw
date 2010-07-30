@@ -1147,3 +1147,7 @@ The thyristor will short the 12V_logic rail
 to ground when there's an over-voltage
 fault on the 5V rail. This will cause the 1A
 fuse to blow.
+T 60500 54100 9 10 1 0 0 0 3
+TS2431 has an internal reference voltage
+of 2.5V. It will pull the FET gate to ground
+when the rail voltage rises above 5.5V

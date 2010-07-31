@@ -1273,3 +1273,17 @@ T 61700 39600 5 10 1 1 0 1 1
 value=5V_EN
 }
 N 59600 39600 60800 39600 4
+C 47100 37800 1 180 0 testpt-1.sym
+{
+T 47100 37400 5 10 1 1 0 2 1
+refdes=TP?
+T 46700 36900 5 10 0 0 180 0 1
+device=TESTPOINT
+T 46700 37100 5 10 0 0 180 0 1
+footprint=Test_Point
+T 47100 37200 5 10 1 1 0 2 1
+value=sr-nothing
+T 45800 36800 5 10 1 1 0 0 1
+comment=Connect to GND to write to EEPROM
+}
+N 47000 37800 47000 38500 4

@@ -1151,3 +1151,31 @@ T 60500 54100 9 10 1 0 0 0 3
 TS2431 has an internal reference voltage
 of 2.5V. It will pull the FET gate to ground
 when the rail voltage rises above 5.5V
+C 60400 59600 1 270 0 resistor-2.sym
+{
+T 60750 59200 5 10 0 0 270 0 1
+device=RESISTOR
+T 60700 59200 5 10 1 1 0 0 1
+refdes=R?
+T 60700 59000 5 10 1 1 0 0 1
+value=sr-r-330
+T 60400 59600 5 10 0 1 0 0 1
+footprint=sr_0603
+}
+C 60300 58500 1 270 0 led-1.sym
+{
+T 60900 57700 5 10 0 0 270 0 1
+device=LED
+T 61100 58100 5 10 1 1 0 0 1
+refdes=LED?
+T 61100 57700 5 10 0 0 270 0 1
+symversion=0.1
+T 61100 57900 5 10 1 1 0 0 1
+value=sr-led-green-plcc2
+T 60300 58500 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 60400 57300 1 0 0 gnd-1.sym
+N 60500 58500 60500 58700 4
+N 60500 59600 59600 59600 4
+N 59600 59600 59600 56800 4

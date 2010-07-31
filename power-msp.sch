@@ -1287,3 +1287,32 @@ T 45800 36800 5 10 1 1 0 0 1
 comment=Connect to GND to write to EEPROM
 }
 N 47000 37800 47000 38500 4
+C 60000 36800 1 270 0 led-1.sym
+{
+T 60600 36000 5 10 0 0 270 0 1
+device=LED
+T 60700 36400 5 10 1 1 0 0 1
+refdes=LED?
+T 60800 36000 5 10 0 0 270 0 1
+symversion=0.1
+T 60700 36200 5 10 1 1 0 0 1
+value=sr-led-red-0603
+T 60000 36800 5 10 0 1 0 0 1
+footprint=sr_0603_led
+T 60700 36000 5 10 1 1 0 0 1
+comment=Debug
+}
+C 60100 37700 1 270 0 resistor-2.sym
+{
+T 60450 37300 5 10 0 0 270 0 1
+device=RESISTOR
+T 60400 37300 5 10 1 1 0 0 1
+refdes=R?
+T 60400 37100 5 10 1 1 0 0 1
+value=sr-r-330
+T 60100 37700 5 10 0 1 270 0 1
+footprint=sr_0603
+}
+C 60100 35600 1 0 0 gnd-1.sym
+N 60200 37700 60200 38100 4
+N 60200 38100 59600 38100 4

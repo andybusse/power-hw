@@ -3,6 +3,8 @@ PCB=pcb
 GEDA_HIERPCB=sr geda-hierpcb
 PROJECTRC=projectrc
 
+SCHEMATICS=power-power.sch power-msp.sch power-lcd.sch
+
 .PHONY: pcb photo bom clean
 
 pcb:
@@ -19,8 +21,8 @@ power-bottom.png: power.pcb
 
 bom: bom.html
 
-bom.html: power.sch
-	sr create_bom power.sch bom.html
+bom.html: ${SCHEMATICS}
+	sr create_bom ${SCHEMATICS} bom.html
 
 clean:
 	-rm -f power-{top,bottom}.png power.{net,cmd,new.pcb} bom.html

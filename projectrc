@@ -1,4 +1,4 @@
-schematics power.sch
+schematics power-power.sch power-msp.sch power-lcd.sch
 output-name power
 elements-dir ./components/pkg
 

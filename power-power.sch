@@ -150,12 +150,11 @@ device=CONNECTOR_2
 T 29700 59500 5 10 1 1 0 0 1
 refdes=J?
 T 29700 59300 5 10 1 1 0 0 1
-value=sr-cn-camcon2w
+value=sr-cn-header2-5a-ra
 T 29700 58500 5 10 0 1 0 0 1
-footprint=camcon2
-T 29500 58900 5 20 1 1 90 3 2
-comment=Logic Power
-Switch
+footprint=sr_header2_156_ra
+T 29500 58900 5 20 1 1 90 3 1
+comment=Power Switch
 }
 N 31400 59000 33400 59000 4
 N 31400 58700 32300 58700 4

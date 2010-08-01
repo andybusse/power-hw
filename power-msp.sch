@@ -1728,6 +1728,8 @@ T 63200 56900 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
 T 62900 56900 5 10 1 1 0 0 1
 value=sr-sw-button
+T 62800 56300 5 10 0 0 0 0 1
+footprint=tact_sw_1
 }
 C 63700 56000 1 0 0 gnd-1.sym
 C 62000 57500 1 90 1 resistor-2.sym
@@ -1831,6 +1833,8 @@ T 64900 54500 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
 T 64600 54500 5 10 1 1 0 0 1
 value=sr-sw-button
+T 64500 53900 5 10 0 0 0 0 1
+footprint=tact_sw_1
 }
 C 65400 53600 1 0 0 gnd-1.sym
 C 63700 55100 1 90 1 resistor-2.sym
@@ -1874,6 +1878,8 @@ T 66600 52200 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
 T 66300 52200 5 10 1 1 0 0 1
 value=sr-sw-button
+T 66200 51600 5 10 0 0 0 0 1
+footprint=tact_sw_1
 }
 C 67100 51300 1 0 0 gnd-1.sym
 C 65400 52800 1 90 1 resistor-2.sym

@@ -1044,9 +1044,9 @@ device=PMOS_TRANSISTOR
 T 65000 56700 5 10 1 1 0 0 1
 refdes=Q?
 T 65000 56500 5 10 1 1 0 0 1
-value=sr-fet-p-bss84lt1g
+value=sr-fet-p-mmbf2202pt1
 T 64400 57100 5 10 0 1 0 0 1
-footprint=SOT23
+footprint=SOT323
 }
 C 61200 55900 1 270 0 resistor-2.sym
 {

@@ -9,6 +9,8 @@ T 29700 62800 5 10 1 1 0 0 1
 value=sr-cn-battcon
 T 29500 62300 5 20 1 1 90 3 1
 comment=Battery
+T 29700 62000 5 10 0 0 0 0 1
+footprint=battcon
 }
 C 31800 62400 1 0 0 fuse-2.sym
 {

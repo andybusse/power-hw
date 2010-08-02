@@ -6,7 +6,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["" 1181102 1181102]
+PCB["Power Board" 1181102 1181102]
 
 Grid[7874.015625 0 0 0]
 Cursor[0 0 0.000000]

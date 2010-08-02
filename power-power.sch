@@ -1467,9 +1467,9 @@ device=CONNECTOR_2
 T 65900 59000 5 10 1 1 0 6 1
 refdes=J?
 T 65900 58800 5 10 1 1 0 6 1
-value=sr-cn-camcon2w
+value=sr-cn-minicamcon2w
 T 65900 58000 5 10 0 1 0 6 1
-footprint=camcon2
+footprint=minicamcon2
 T 66000 58400 5 20 1 1 270 3 1
 comment=USB Hub
 }

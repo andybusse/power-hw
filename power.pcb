@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 13:48:31 2010
+# date:    Tue Aug  3 14:20:20 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -1135,7 +1135,7 @@ Element["" "sr_0603" "C106" "sr-c-10n" 545681 1094488 0 0 0 100 ""]
 
 	)
 
-Element["" "fpc4-1.fp" "J100" "sr-cn-fpc4-0.5mm-top" 39370 1086613 0 0 0 100 ""]
+Element["" "fpc4-1.fp" "J100" "sr-cn-fpc4-0.5mm-top" 313977 365157 0 0 0 100 ""]
 (
 	Pad[-2953 -11339 -2953 -6890 1181 1968 0 "1" "1" "square"]
 	Pad[-984 -11339 -984 -6890 1181 1968 0 "2" "2" "square"]
@@ -1155,7 +1155,7 @@ Element["" "fpc4-1.fp" "J100" "sr-cn-fpc4-0.5mm-top" 39370 1086613 0 0 0 100 ""]
 
 	)
 
-Element["" "fpc40-1.fp" "J101" "sr-cn-fpc40-0.5mm-bottom" 78740 1141731 0 0 0 100 ""]
+Element["" "fpc40-1.fp" "J101" "sr-cn-fpc40-0.5mm-bottom" 384843 378936 0 0 0 100 ""]
 (
 	Pad[-38386 -13583 -38386 -9843 1181 1968 0 "1" "1" "square"]
 	Pad[-36417 -13583 -36417 -9843 1181 1968 0 "2" "2" "square"]

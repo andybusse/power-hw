@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 12:35:08 2010
+# date:    Tue Aug  3 12:36:56 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -3443,6 +3443,34 @@ Element["" "SOT23" "D303" "sr-d-gsot15" 283465 929134 12300 -11000 3 100 ""]
 	ElementLine [-2500 2900 10300 2900 1000]
 	ElementLine [10300 2900 10300 -11000 1000]
 	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "Playstation Portable LCD outline" "" "psp_lcd" 330709 496063 0 0 0 100 ""]
+(
+	ElementLine [73031 106496 153740 106496 787]
+	ElementLine [73031 93110 153740 93110 787]
+	ElementLine [153740 93110 153740 157480 787]
+	ElementLine [73031 93110 73031 157480 787]
+	ElementLine [37402 91339 47244 91339 787]
+	ElementLine [37402 82087 47244 82087 787]
+	ElementLine [47244 82087 47244 157480 787]
+	ElementLine [37402 82087 37402 157480 787]
+	ElementLine [0 260630 411417 260630 3937]
+	ElementLine [0 0 411417 0 3937]
+	ElementLine [0 0 0 260630 3937]
+	ElementLine [411417 0 411417 260630 3937]
+
+	)
+
+Element["" "Panel mount rocker switch outline" "" "rocker_switch" 811024 496063 0 0 0 100 ""]
+(
+	ElementLine [27559 11811 27559 27559 984]
+	ElementLine [0 78740 55118 78740 3937]
+	ElementLine [0 0 55118 0 3937]
+	ElementLine [0 0 0 78740 3937]
+	ElementLine [55118 0 55118 78740 3937]
+	ElementArc [27559 59055 7874 7874 0 360 984]
 
 	)
 Layer(1 "component")

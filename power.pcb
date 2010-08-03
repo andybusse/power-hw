@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 13:46:48 2010
+# date:    Tue Aug  3 13:48:31 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -1468,18 +1468,18 @@ Element["" "PLCC2" "LED302" "sr-led-green-plcc2" 671305 1031496 22100 0 3 100 ""
 
 	)
 
-Element["" "header2_156_ra" "J306" "sr-cn-header2-5a-ra" 236219 968504 0 0 0 100 ""]
+Element["onsolder" "header2_156_ra" "J306" "sr-cn-header2-5a-ra" 734251 422244 0 0 0 100 "auto"]
 (
 	Pin[-7795 0 9843 1968 10827 6693 "1" "1" ""]
 	Pin[7795 0 9843 1968 10827 6693 "2" "2" ""]
-	ElementLine [-15591 21181 15591 21181 984]
-	ElementLine [-15591 21181 -15591 73701 984]
-	ElementLine [15591 21181 15591 73701 984]
-	ElementLine [-15591 39370 -9354 39370 984]
-	ElementLine [-3118 39370 3118 39370 984]
-	ElementLine [9354 39370 15591 39370 984]
-	ElementLine [-7795 5906 -7795 21181 984]
-	ElementLine [7795 5906 7795 21181 984]
+	ElementLine [-15591 -21181 15591 -21181 984]
+	ElementLine [-15591 -21181 -15591 -73701 984]
+	ElementLine [15591 -21181 15591 -73701 984]
+	ElementLine [-15591 -39370 -9354 -39370 984]
+	ElementLine [-3118 -39370 3118 -39370 984]
+	ElementLine [9354 -39370 15591 -39370 984]
+	ElementLine [-7795 -5906 -7795 -21181 984]
+	ElementLine [7795 -5906 7795 -21181 984]
 
 	)
 

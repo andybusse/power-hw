@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 14:47:21 2010
+# date:    Tue Aug  3 14:58:50 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -2116,17 +2116,17 @@ Element["" "1206" "F200" "sr-fuse-r50-1206" 230723 1073366 -3150 -3150 0 100 ""]
 
 	)
 
-Element["" "piezo_1" "X200" "sr-piezo-kmtg1603" 56496 1007874 0 0 0 100 ""]
+Element["" "piezo_1" "X200" "sr-piezo-kmtg1603" 566537 289369 0 0 2 100 ""]
 (
-	Pad[-32874 0 -27362 0 16929 1968 17913 "" "1" "square"]
-	Pad[27362 0 32874 0 16929 1968 17913 "" "2" "square,edge2"]
-	ElementLine [-32283 32283 32283 32283 984]
-	ElementLine [32283 32283 32283 -32283 984]
-	ElementLine [32283 -32283 -32283 -32283 984]
+	Pad[27362 0 32874 0 16929 1968 17913 "" "1" "square,edge2"]
+	Pad[-32874 0 -27362 0 16929 1968 17913 "" "2" "square"]
+	ElementLine [-32283 -32283 32283 -32283 984]
 	ElementLine [-32283 -32283 -32283 32283 984]
-	ElementLine [-5906 23622 5906 23622 984]
-	ElementLine [-5906 23622 0 31496 984]
-	ElementLine [5906 23622 0 31496 984]
+	ElementLine [-32283 32283 32283 32283 984]
+	ElementLine [32283 -32283 32283 32283 984]
+	ElementLine [-5906 -23622 5906 -23622 984]
+	ElementLine [5906 -23622 0 -31496 984]
+	ElementLine [-5906 -23622 0 -31496 984]
 
 	)
 

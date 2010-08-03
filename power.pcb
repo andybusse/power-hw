@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 12:47:58 2010
+# date:    Tue Aug  3 12:53:47 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -13,8 +13,8 @@ Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
-Flags("nameonpcb,uniquename,clearnew,snappin,locknames,hidenames")
-Groups("1,c:2,s")
+Flags("rubberband,nameonpcb,uniquename,clearnew,snappin,locknames,hidenames")
+Groups("1,c:2,s:3,4")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
 Symbol(' ' 18)
@@ -3446,7 +3446,7 @@ Element["onsolder" "beagleboard" "U103" "sr-asm-beagleboard" 685040 564961 0 0 3
 
 	)
 
-Element["" "Playstation Portable LCD outline" "" "psp_lcd" 271653 256889 0 0 0 100 ""]
+Element["" "Playstation Portable LCD outline" "" "psp_lcd" 271654 289369 0 0 0 100 ""]
 (
 	ElementLine [73031 106496 153740 106496 787]
 	ElementLine [73031 93110 153740 93110 787]
@@ -3479,10 +3479,26 @@ Layer(1 "component")
 Layer(2 "solder")
 (
 )
-Layer(3 "silk")
+Layer(3 "outline-case")
+(
+	Line[222441 254921 853346 254921 1000 2000 "clearline"]
+	Line[853346 254921 853346 628937 1000 2000 "clearline"]
+	Line[853346 628937 222441 628937 1000 2000 "clearline"]
+	Line[222441 628937 222441 254921 1000 2000 "clearline"]
+)
+Layer(4 "outline")
+(
+	Line[224409 256890 708661 256890 1000 2000 "clearline"]
+	Line[708661 256890 708661 382874 1000 2000 "clearline"]
+	Line[708661 382874 851378 382874 1000 2000 "clearline"]
+	Line[851378 382874 851378 626968 1000 2000 "clearline"]
+	Line[851378 626968 224409 626968 1000 2000 "clearline"]
+	Line[224409 626968 224409 256890 1000 2000 "clearline"]
+)
+Layer(5 "silk")
 (
 )
-Layer(4 "silk")
+Layer(6 "silk")
 (
 )
 NetList()

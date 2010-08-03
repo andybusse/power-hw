@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Aug  3 14:58:50 2010
+# date:    Tue Aug  3 15:01:25 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -3001,14 +3001,14 @@ Element["" "SOT223" "U303" "sr-ic-ld1117s33" 447693 1007874 25300 -32900 3 100 "
 
 	)
 
-Element["" "fuse_sil_1" "F304" "sr-cn-fuse-sil" 637795 957264 0 0 0 100 ""]
+Element["" "fuse_sil_1" "F304" "sr-cn-fuse-sil" 773780 417323 0 0 2 100 ""]
 (
-	Pin[-10000 0 8661 1968 9646 3937 "" "1" "edge2"]
-	Pin[10000 0 8661 1968 9646 3937 "" "2" "edge2"]
-	ElementLine [-16535 8661 16535 8661 984]
-	ElementLine [16535 8661 16535 -8661 984]
-	ElementLine [16535 -8661 -16535 -8661 984]
+	Pin[10000 0 8661 1968 9646 3937 "" "1" "edge2"]
+	Pin[-10000 0 8661 1968 9646 3937 "" "2" "edge2"]
+	ElementLine [-16535 -8661 16535 -8661 984]
 	ElementLine [-16535 -8661 -16535 8661 984]
+	ElementLine [-16535 8661 16535 8661 984]
+	ElementLine [16535 -8661 16535 8661 984]
 
 	)
 

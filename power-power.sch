@@ -36,7 +36,7 @@ device=NMOS_TRANSISTOR
 T 32800 60900 5 10 1 1 0 6 1
 refdes=Q304
 T 32800 60700 5 10 1 1 0 6 1
-value=sr-fet-n-fdd8580
+value=sr-fet-n-irlr8743
 T 33400 60500 5 10 0 1 0 0 1
 footprint=D_PAK
 }
@@ -333,7 +333,7 @@ device=NMOS_TRANSISTOR
 T 62200 65800 5 10 1 1 0 0 1
 refdes=Q300
 T 62200 65600 5 10 1 1 0 0 1
-value=sr-fet-n-fdd8580
+value=sr-fet-n-irlr8743
 T 61600 65400 5 10 0 1 0 6 1
 footprint=D_PAK
 }

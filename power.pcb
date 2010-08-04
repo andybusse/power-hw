@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Aug  4 01:14:10 2010
+# date:    Wed Aug  4 01:27:17 2010
 # user:    richard (Richard Barlow)
 # host:    rich_pc
 
@@ -2140,7 +2140,7 @@ Element["lock" "Playstation Portable LCD outline" "" "psp_lcd" 271654 279526 0 0
 
 	)
 
-Element["" "D_PAK" "Q304" "sr-fet-n-fdd8580" 826772 581122 0 0 2 100 ""]
+Element["" "D_PAK" "Q304" "sr-fet-n-irlr8743" 826772 581122 0 0 2 100 ""]
 (
 	Pad[8976 -2976 8976 2976 6000 1968 6984 "1" "1" "square"]
 	Pad[-8976 -2976 -8976 2976 6000 1968 6984 "2" "2" "square"]
@@ -3579,7 +3579,7 @@ Element["" "2512" "R312" "sr-r-1m-2512" 758957 516732 3150 3150 2 100 ""]
 
 	)
 
-Element["" "D_PAK" "Q300" "sr-fet-n-fdd8580" 733268 583248 0 0 0 100 ""]
+Element["" "D_PAK" "Q300" "sr-fet-n-irlr8743" 733268 583248 0 0 0 100 ""]
 (
 	Pad[-8976 -2976 -8976 2976 6000 1968 6984 "1" "1" "square,edge2"]
 	Pad[8976 -2976 8976 2976 6000 1968 6984 "2" "2" "square,edge2"]

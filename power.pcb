@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Aug  4 11:54:33 2010
+# date:    Wed Aug  4 12:01:27 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -5195,7 +5195,7 @@ NetList()
 	Net("unnamed_net109" "(unknown)")
 	(
 		Connect("R104-1")
-		Connect("U102-43")
+		Connect("U102-44")
 		Connect("U103-B18")
 	)
 	Net("unnamed_net110" "(unknown)")
@@ -5205,7 +5205,7 @@ NetList()
 	)
 	Net("unnamed_net111" "(unknown)")
 	(
-		Connect("U102-44")
+		Connect("U102-43")
 		Connect("U103-C16")
 	)
 	Net("unnamed_net112" "(unknown)")
@@ -5326,7 +5326,7 @@ NetList()
 	Net("unnamed_net135" "(unknown)")
 	(
 		Connect("J101-30")
-		Connect("U102-5")
+		Connect("U102-6")
 	)
 	Net("unnamed_net136" "(unknown)")
 	(
@@ -5341,7 +5341,7 @@ NetList()
 	Net("unnamed_net138" "(unknown)")
 	(
 		Connect("J101-31")
-		Connect("U102-6")
+		Connect("U102-5")
 	)
 	Net("unnamed_net139" "(unknown)")
 	(

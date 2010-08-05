@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Thu Aug  5 11:12:16 2010
+# date:    Thu Aug  5 12:17:25 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -4913,6 +4913,10 @@ Layer(4 "outline")
 	Line[224409 626968 224409 256890 1000 2000 "clearline,lock"]
 	Line[851378 626968 224409 626968 1000 2000 "clearline,lock"]
 	Line[851378 382874 851378 626968 1000 2000 "clearline,lock"]
+	Line[316142 404724 300394 404724 1000 2000 "clearline"]
+	Line[300394 404724 300394 459843 1000 2000 "clearline"]
+	Line[300394 459843 316142 459843 1000 2000 "clearline"]
+	Line[316142 459843 316142 404724 1000 2000 "clearline"]
 )
 Layer(5 "silk")
 (

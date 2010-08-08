@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Aug  8 14:43:04 2010
+# date:    Sun Aug  8 17:05:14 2010
 # user:    richard (Richard Barlow)
 # host:    richpc.richardbarlow.co.uk
 
@@ -8,12 +8,12 @@ FileVersion[20100606]
 
 PCB["Power Board" 661417 472441]
 
-Grid[393.700775 0 0 0]
+Grid[393.700775 0 0 1]
 Cursor[0 472441 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[783 787 787 787 1969 787]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,hidenames")
 Groups("1,c:2,s:3")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4724,5512,3937,1000:Skinny,787,3543,1969,984"]
 
@@ -2515,22 +2515,6 @@ Element["" "sr_0603" "C108" "sr-c-100n" 211512 240645 -3967 4698 0 100 ""]
 
 	)
 
-Element["" "SC70_6_2.fp" "Q100" "sr-fet-p-si1473dh" 232989 121566 -6257 -15911 0 100 ""]
-(
-	Pad[0 -1000 0 1000 1500 3000 2100 "1" "1" "square,edge2"]
-	Pad[2600 -1000 2600 1000 1500 3000 2100 "2" "2" "square,edge2"]
-	Pad[5100 -1000 5100 1000 1500 3000 2100 "3" "3" "square,edge2"]
-	Pad[5100 -8000 5100 -6000 1500 3000 2100 "4" "4" "square"]
-	Pad[2600 -8000 2600 -6000 1500 3000 2100 "5" "5" "square"]
-	Pad[0 -8000 0 -6000 1500 3000 2100 "6" "6" "square"]
-	ElementLine [-1400 -9400 -1400 2500 1000]
-	ElementLine [-1400 2500 6600 2500 1000]
-	ElementLine [6600 -9400 6600 2500 1000]
-	ElementLine [-1400 -9400 6600 -9400 1000]
-	ElementLine [-1400 -2900 100 -2900 1000]
-
-	)
-
 Element["" "fuse_ato_1" "F300" "sr-cn-fuse-ato" 581102 214370 -38189 -18110 0 100 ""]
 (
 	Pin[27559 0 13780 1968 14764 9843 "1" "1" "edge2"]
@@ -3910,6 +3894,18 @@ Element["" "1210" "C219" "sr-c-22u-1210" 131889 368898 8662 5512 1 100 ""]
 	ElementLine [-1968 -5314 1968 -5314 800]
 
 	)
+
+Element["" "SOT23" "Q100" "sr-fet-p-pmv65xp" 238583 122047 -11000 -12300 0 100 ""]
+(
+	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[-8500 -3900 -7900 -3900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-11000 -10300 -11000 2500 1000]
+	ElementLine [-11000 -10300 2900 -10300 1000]
+	ElementLine [2900 -10300 2900 2500 1000]
+	ElementLine [-11000 2500 2900 2500 1000]
+
+	)
 Layer(1 "component")
 (
 	Line[601772 363976 631299 363976 2500 2000 ""]
@@ -4674,8 +4670,8 @@ Layer(1 "component")
 	Line[256299 109448 247638 109448 2500 2000 "clearline"]
 	Line[247638 109448 245669 111417 2500 2000 "clearline"]
 	Line[245669 111417 245669 114960 2500 2000 "clearline"]
-	Line[245669 114960 238483 114960 1000 2000 "clearline"]
-	Line[238483 114960 238089 114566 1000 2000 "clearline"]
+	Line[137794 368898 129527 377165 2500 2000 "clearline"]
+	Line[292520 333858 298819 340157 1000 2000 "clearline"]
 	Line[257087 135039 240621 135039 1000 2000 "clearline"]
 	Line[240621 135039 240465 134883 1000 2000 "clearline"]
 	Line[240465 129783 247777 129783 1000 2000 "clearline"]
@@ -4684,13 +4680,13 @@ Layer(1 "component")
 	Line[205119 115749 205118 115748 1000 2000 "clearline"]
 	Line[203150 122047 203150 116535 1000 2000 "clearline"]
 	Line[215355 116141 203937 116141 2500 2000 "clearline"]
-	Line[233465 132283 233465 130314 1000 2000 "clearline"]
-	Line[233465 130314 238189 125590 1000 2000 "clearline"]
-	Line[238189 125590 238189 121666 1000 2000 "clearline"]
-	Line[238189 121666 238089 121566 1000 2000 "clearline"]
-	Line[235589 114566 235589 121566 1000 2000 "clearline"]
-	Line[232989 114566 232989 121566 1000 2000 "clearline"]
-	Line[235827 118110 217324 118110 2500 2000 "clearline"]
+	Line[434971 284578 434289 284578 1000 2000 "clearline"]
+	Line[101643 354398 101643 337076 2500 2000 "clearline"]
+	Line[101643 337076 101575 337008 2500 2000 "clearline"]
+	Line[82284 200394 82283 171260 2500 2000 "clearline"]
+	Line[98780 370433 98780 366535 2500 2000 "clearline"]
+	Line[105512 377165 98780 370433 2500 2000 "clearline"]
+	Line[129527 377165 105512 377165 2500 2000 "clearline"]
 	Line[217324 118110 215355 116141 2500 2000 "clearline"]
 	Line[249607 127953 250000 127953 1575 2000 "clearline"]
 	Line[250000 127953 253150 124803 1575 2000 "clearline"]
@@ -4702,8 +4698,8 @@ Layer(1 "component")
 	Line[255906 120866 257087 119685 1575 2000 "clearline"]
 	Line[257087 119685 257087 119292 1575 2000 "clearline"]
 	Line[257087 119292 252755 114960 1575 2000 "clearline"]
-	Line[238089 121566 244401 121566 1000 2000 "clearline"]
-	Line[244401 121566 244488 121653 1000 2000 "clearline"]
+	Line[82283 171260 71260 160236 2500 2000 "clearline"]
+	Line[451968 301575 434971 284578 1000 2000 "clearline"]
 	Line[245669 114960 245669 117000 1000 2000 "clearline"]
 	Line[245669 117000 250322 121653 1000 2000 "clearline"]
 	Line[257087 129205 257087 124409 1000 2000 "clearline"]
@@ -6118,17 +6114,13 @@ Layer(1 "component")
 	Line[134252 341016 135827 339441 2500 2000 "clearline"]
 	Line[135827 339441 135827 329528 2500 2000 "clearline"]
 	Line[109843 333858 109843 339050 2500 2000 "clearline"]
-	Line[451968 301575 434971 284578 1000 2000 "clearline"]
-	Line[434971 284578 434289 284578 1000 2000 "clearline"]
-	Line[101643 354398 101643 337076 2500 2000 "clearline"]
-	Line[101643 337076 101575 337008 2500 2000 "clearline"]
-	Line[82284 200394 82283 171260 2500 2000 "clearline"]
-	Line[82283 171260 71260 160236 2500 2000 "clearline"]
-	Line[292520 333858 298819 340157 1000 2000 "clearline"]
-	Line[137794 368898 129527 377165 2500 2000 "clearline"]
-	Line[129527 377165 105512 377165 2500 2000 "clearline"]
-	Line[105512 377165 98780 370433 2500 2000 "clearline"]
-	Line[98780 370433 98780 366535 2500 2000 "clearline"]
+	Line[244488 121653 238977 121653 1000 2000 "clearline"]
+	Line[238977 121653 233465 127165 1000 2000 "clearline"]
+	Line[233465 127165 233465 132283 1000 2000 "clearline"]
+	Line[245669 114960 244956 114247 2500 2000 "clearline"]
+	Line[244956 114247 238583 114247 2500 2000 "clearline"]
+	Line[217323 118110 217360 118147 2500 2000 "clearline"]
+	Line[217360 118147 230383 118147 2500 2000 "clearline"]
 	Polygon("clearpoly")
 	(
 		[588584 343307] [594882 349605] [634252 349605] [634252 312598] [617323 312598] 
@@ -6855,7 +6847,7 @@ NetList()
 		Connect("C102-1")
 		Connect("C105-1")
 		Connect("L100-1")
-		Connect("Q100-4")
+		Connect("Q100-2")
 		Connect("R102-1")
 		Connect("U100-3")
 		Connect("U101-1")
@@ -8066,10 +8058,7 @@ NetList()
 	(
 		Connect("J101-35")
 		Connect("J101-36")
-		Connect("Q100-1")
-		Connect("Q100-2")
-		Connect("Q100-5")
-		Connect("Q100-6")
+		Connect("Q100-3")
 	)
 	Net("unnamed_net145" "(unknown)")
 	(
@@ -8086,15 +8075,15 @@ NetList()
 	)
 	Net("unnamed_net147" "(unknown)")
 	(
-		Connect("Q100-3")
-		Connect("Q101-3")
-		Connect("R102-2")
-	)
-	Net("unnamed_net148" "(unknown)")
-	(
 		Connect("C107-1")
 		Connect("Q101-1")
 		Connect("R103-2")
+	)
+	Net("unnamed_net148" "(unknown)")
+	(
+		Connect("Q100-1")
+		Connect("Q101-3")
+		Connect("R102-2")
 	)
 	Net("unnamed_net149" "(unknown)")
 	(

@@ -1,0 +1,4 @@
+schematics usb-riser.sch
+output-name usb-riser
+elements-dir ../components/pkg
+

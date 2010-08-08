@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Aug  8 13:21:47 2010
+# date:    Sun Aug  8 13:31:47 2010
 # user:    richard (Richard Barlow)
 # host:    richpc.richardbarlow.co.uk
 
@@ -6641,10 +6641,6 @@ Layer(3 "outline")
 	Line[12205 383661 12205 9645 1000 2000 "clearline"]
 	Line[642126 383661 12205 383661 1000 2000 "clearline"]
 	Line[642126 137598 642126 383661 1000 2000 "clearline"]
-	Line[104725 159448 88977 159448 1000 2000 "clearline"]
-	Line[88977 159448 88977 214567 1000 2000 "clearline"]
-	Line[88977 214567 104725 214567 1000 2000 "clearline"]
-	Line[104725 214567 104725 159448 1000 2000 "clearline"]
 )
 Layer(4 "silk")
 (

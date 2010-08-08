@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Aug  8 13:31:47 2010
+# date:    Sun Aug  8 13:38:56 2010
 # user:    richard (Richard Barlow)
 # host:    richpc.richardbarlow.co.uk
 
@@ -9,11 +9,11 @@ FileVersion[20100606]
 PCB["Power Board" 661417 472441]
 
 Grid[393.700775 0 0 1]
-Cursor[0 472441 0.000000]
+Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[783 787 787 787 1969 787]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,locknames,hidenames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
 Groups("1,c:2,s:3")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4724,5512,3937,1000:Skinny,787,3543,1969,984"]
 
@@ -1105,7 +1105,7 @@ Via[101575 337008 3600 2000 0 2000 "" ""]
 Via[82284 200394 3600 2000 0 2000 "" ""]
 Via[71260 160236 3600 2000 0 2000 "" ""]
 
-Element["onsolder" "battcon" "J303" "sr-cn-battcon" 565355 341337 0 0 1 100 "auto"]
+Element["onsolder" "battcon" "J303" "sr-cn-battcon" 565355 341337 -22443 36615 0 100 "auto"]
 (
 	Pin[-15000 -15000 12598 1968 13583 5984 "1" "1" "edge2,thermal(0S)"]
 	Pin[15000 -15000 12598 1968 13583 5984 "1" "1" "edge2,thermal(0S)"]
@@ -1171,7 +1171,7 @@ Element["" "0805" "C101" "sr-c-2u2-0805" 148425 98425 -3150 -3150 0 100 ""]
 
 	)
 
-Element["onsolder" "beagleboard" "U103" "sr-asm-beagleboard" 445276 319685 0 0 3 100 "auto"]
+Element["onsolder" "beagleboard" "U103" "sr-asm-beagleboard" 445276 319685 -11418 6693 0 100 "auto"]
 (
 	Pin[-15000 -15000 16000 2000 16000 16000 "" "" "hole"]
 	Pin[-15000 -295000 16000 2000 16000 16000 "" "" "hole"]
@@ -1386,7 +1386,7 @@ Element["" "sr_0603" "R224" "sr-r-10k" 231101 275823 0 0 3 100 ""]
 
 	)
 
-Element["onsolder" "camcon2" "J304" "sr-cn-camcon2w" 314371 358857 0 0 2 100 "auto"]
+Element["onsolder" "camcon2" "J304" "sr-cn-camcon2w" 314371 358857 -29529 -8659 0 100 "auto"]
 (
 	Pin[14764 0 12600 2000 13200 6000 "1" "1" "edge2,thermal(0S)"]
 	Pin[-14764 0 12600 2000 13200 6000 "2" "2" "edge2,thermal(1S)"]
@@ -1396,7 +1396,7 @@ Element["onsolder" "camcon2" "J304" "sr-cn-camcon2w" 314371 358857 0 0 2 100 "au
 
 	)
 
-Element["onsolder" "camcon2" "J302" "sr-cn-camcon2w" 243506 358857 0 0 2 100 "auto"]
+Element["onsolder" "camcon2" "J302" "sr-cn-camcon2w" 243506 358857 -29531 -8659 0 100 "auto"]
 (
 	Pin[14764 0 12600 2000 13200 6000 "1" "1" "edge2,thermal(0S)"]
 	Pin[-14764 0 12600 2000 13200 6000 "2" "2" "edge2,thermal(1S)"]
@@ -1766,7 +1766,7 @@ Element["" "sr_0603" "C303" "sr-c-470n" 547602 256692 0 0 0 100 ""]
 
 	)
 
-Element["onsolder" "camcon2" "J300" "sr-cn-camcon2w" 172640 358856 0 0 2 100 "auto"]
+Element["onsolder" "camcon2" "J300" "sr-cn-camcon2w" 172640 358856 -29532 -8658 0 100 "auto"]
 (
 	Pin[14764 0 12600 2000 13200 6000 "1" "1" "edge2,thermal(0S)"]
 	Pin[-14764 0 12600 2000 13200 6000 "2" "2" "edge2,thermal(1S)"]
@@ -1776,7 +1776,7 @@ Element["onsolder" "camcon2" "J300" "sr-cn-camcon2w" 172640 358856 0 0 2 100 "au
 
 	)
 
-Element["onsolder" "camcon2" "J305" "sr-cn-camcon2w" 385235 358858 0 0 2 100 "auto"]
+Element["onsolder" "camcon2" "J305" "sr-cn-camcon2w" 385235 358858 -29525 -8661 0 100 "auto"]
 (
 	Pin[14764 0 12600 2000 13200 6000 "1" "1" "edge2,thermal(0S)"]
 	Pin[-14764 0 12600 2000 13200 6000 "2" "2" "edge2,thermal(1S)"]
@@ -1795,7 +1795,7 @@ Element["" "sr_0603" "C216" "sr-c-10n" 295670 88815 0 0 3 100 ""]
 
 	)
 
-Element["onsolder" "header2_156_ra" "J306" "sr-cn-header2-5a-ra" 533070 176968 0 0 0 100 "auto"]
+Element["onsolder" "header2_156_ra" "J306" "sr-cn-header2-5a-ra" 533070 176968 16535 -32400 1 100 "auto"]
 (
 	Pin[-7795 0 9843 1968 10827 6693 "1" "1" ""]
 	Pin[7795 0 9843 1968 10827 6693 "2" "2" "thermal(1t)"]
@@ -2007,7 +2007,7 @@ Element["" "SO8" "U300" "sr-ic-lm2904" 450020 255525 -6000 2000 1 100 ""]
 
 	)
 
-Element["onsolder" "SOT23" "D303" "sr-d-gsot15" 29528 309055 -11000 12300 0 100 "auto"]
+Element["onsolder" "SOT23" "D303" "sr-d-gsot15" 29528 309055 -10212 17025 0 100 "auto"]
 (
 	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
 	Pad[-300 7800 300 7800 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
@@ -2019,7 +2019,7 @@ Element["onsolder" "SOT23" "D303" "sr-d-gsot15" 29528 309055 -11000 12300 0 100 
 
 	)
 
-Element["onsolder" "SOT23" "D301" "sr-d-gsot15" 32610 134289 -11000 12300 0 100 "auto"]
+Element["onsolder" "SOT23" "D301" "sr-d-gsot15" 32610 134289 -10213 16631 0 100 "auto"]
 (
 	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
 	Pad[-300 7800 300 7800 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
@@ -2158,7 +2158,7 @@ Element["" "sr_0603" "C315" "sr-c-100n" 437008 248192 0 0 1 100 ""]
 
 	)
 
-Element["onsolder" "sr_0603" "C109" "sr-c-100n" 243934 169291 0 0 2 100 "auto"]
+Element["onsolder" "sr_0603" "C109" "sr-c-100n" 243934 169291 -5585 8268 0 100 "auto"]
 (
 	Pad[2917 -484 2917 484 2831 1968 3815 "2" "2" "onsolder,square"]
 	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "onsolder,square"]
@@ -2203,7 +2203,7 @@ Element["" "sr_0603" "R238" "sr-r-10k" 285273 85432 0 0 0 100 ""]
 
 	)
 
-Element["onsolder" "header2x7_box_1" "J202" "sr-cn-header2x7-box" 121419 239487 0 0 2 100 "auto"]
+Element["onsolder" "header2x7_box_1" "J202" "sr-cn-header2x7-box" 121419 239487 -21973 86774 0 100 "auto"]
 (
 	Pin[0 0 6299 1968 7283 3937 "" "1" "square"]
 	Pin[-10000 0 6299 1968 7283 3937 "" "2" ""]
@@ -2384,7 +2384,7 @@ Element["" "SOT25_2" "U101" "sr-ic-tps73025" 195632 237075 -11800 11000 1 100 ""
 
 	)
 
-Element["onsolder" "2920" "F303" "sr-fuse-r1850-2920" 497244 205511 3150 -3150 2 100 "auto"]
+Element["onsolder" "2920" "F303" "sr-fuse-r1850-2920" 497244 205511 -7087 -11022 0 100 "auto"]
 (
 	Pad[14567 -6496 14567 6496 9055 1968 10039 "1" "1" "onsolder,square"]
 	Pad[-14567 -6496 -14567 6496 9055 1968 10039 "2" "2" "onsolder,square"]
@@ -2420,7 +2420,7 @@ Element["" "0805" "C103" "sr-c-2u2-0805" 179528 240550 3150 -3150 3 100 ""]
 
 	)
 
-Element["onsolder" "sr_0603" "C111" "sr-c-100n" 202756 210468 0 0 3 100 "auto"]
+Element["onsolder" "sr_0603" "C111" "sr-c-100n" 202756 210468 2363 -5187 1 100 "auto"]
 (
 	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "onsolder,square"]
 	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "onsolder,square"]
@@ -2552,7 +2552,7 @@ Element["" "fuse_ato_1" "F300" "sr-cn-fuse-ato" 581102 214370 0 0 2 100 ""]
 
 	)
 
-Element["onsolder" "pwr_jack" "J301" "sr-cn-pjack" 626379 247263 0 0 2 100 "auto"]
+Element["onsolder" "pwr_jack" "J301" "sr-cn-pjack" 626379 247263 784 24764 0 100 "auto"]
 (
 	Pin[0 0 19685 1968 20669 11811 "" "3" "edge2"]
 	Pin[-12008 19291 19685 1968 20669 11811 "" "2" "edge2"]
@@ -2572,7 +2572,7 @@ Element["" "sr_0603" "R309" "sr-r-100k" 462992 297476 0 0 3 100 ""]
 
 	)
 
-Element["onsolder" "2920" "F302" "sr-fuse-r1850-2920" 497244 239370 3150 -3150 2 100 "auto"]
+Element["onsolder" "2920" "F302" "sr-fuse-r1850-2920" 497244 239370 -7086 -11023 0 100 "auto"]
 (
 	Pad[14567 -6496 14567 6496 9055 1968 10039 "1" "1" "onsolder,square"]
 	Pad[-14567 -6496 -14567 6496 9055 1968 10039 "2" "2" "onsolder,square"]
@@ -2851,7 +2851,7 @@ Element["" "SOT23" "D207" "sr-d-mmbz5v6al" 49146 223191 -11000 -12300 0 100 ""]
 
 	)
 
-Element["onsolder" "8P8C" "J201" "sr-cn-8p8c" 53190 282990 -5000 0 0 100 "auto"]
+Element["onsolder" "8P8C" "J201" "sr-cn-8p8c" 53190 282990 15789 3784 1 100 "auto"]
 (
 	Pin[10000 -35000 6000 2000 7000 3500 "" "8" ""]
 	Pin[0 -30000 6000 2000 7000 3500 "" "7" ""]
@@ -2921,7 +2921,7 @@ Element["" "SOT23" "D300" "sr-d-bat754s" 434289 284578 12300 -11000 3 100 ""]
 
 	)
 
-Element["onsolder" "8P8C" "J200" "sr-cn-8p8c" 53190 207046 -5000 0 0 100 "auto"]
+Element["onsolder" "8P8C" "J200" "sr-cn-8p8c" 53190 207046 15748 2956 1 100 "auto"]
 (
 	Pin[10000 -35000 6000 2000 7000 3500 "" "8" ""]
 	Pin[0 -30000 6000 2000 7000 3500 "" "7" ""]
@@ -3426,7 +3426,7 @@ Element["" "SOT323" "Q201" "sr-fet-n-bsh121" 151882 277796 -9400 -9300 0 100 ""]
 
 	)
 
-Element["onsolder" "xtal_smd_1" "X201" "sr-xtal-8m" 418111 111712 0 0 1 100 "auto"]
+Element["onsolder" "xtal_smd_1" "X201" "sr-xtal-8m" 418111 111712 10630 11023 1 100 "auto"]
 (
 	Pad[0 -25689 0 -11909 8071 1968 9055 "" "1" "onsolder,square"]
 	Pad[0 11909 0 25689 8071 1968 9055 "" "2" "onsolder,square,edge2"]
@@ -3803,7 +3803,7 @@ Element["" "hole-M3" "" "" 502362 275197 -16900 -21000 0 100 ""]
 
 	)
 
-Element["onsolder" "minicamcon2" "J203" "sr-cn-minicamcon2w" 106280 366535 0 0 2 100 "auto"]
+Element["onsolder" "minicamcon2" "J203" "sr-cn-minicamcon2w" 106280 366535 -17679 -5511 0 100 "auto"]
 (
 	Pin[7500 0 9449 1968 10433 4724 "1" "1" "edge2"]
 	Pin[-7500 0 9449 1968 10433 4724 "2" "2" "edge2"]
@@ -3864,7 +3864,7 @@ Element["" "sr_0603" "R248" "sr-r-10k" 112760 354724 0 0 0 100 ""]
 
 	)
 
-Element["onsolder" "JUMPER4" "J204" "sr-cn-header4" 96850 203228 11000 5000 3 100 "auto"]
+Element["onsolder" "JUMPER4" "J204" "sr-cn-header4" 96850 203228 -4684 11708 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -3879,7 +3879,7 @@ Element["onsolder" "JUMPER4" "J204" "sr-cn-header4" 96850 203228 11000 5000 3 10
 
 	)
 
-Element["onsolder" "USB_A_1" "J205" "sr-cn-usb-a" 38189 70866 0 0 3 100 "auto"]
+Element["onsolder" "USB_A_1" "J205" "sr-cn-usb-a" 38189 70866 -21652 32677 0 100 "auto"]
 (
 	Pin[0 25866 13780 1968 14764 9055 "" "SHIELD" ""]
 	Pin[0 -25866 13780 1968 14764 9055 "" "SHIELD" ""]

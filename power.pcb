@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Sun Aug  8 17:05:14 2010
-# user:    richard (Richard Barlow)
-# host:    richpc.richardbarlow.co.uk
+# date:    Mon Aug  9 11:28:08 2010
+# user:    rbarlow (Richard Barlow)
+# host:    kneewax.ecs.soton.ac.uk
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -13,7 +13,7 @@ Cursor[0 472441 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[783 787 787 787 1969 787]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,hidenames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
 Groups("1,c:2,s:3")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4724,5512,3937,1000:Skinny,787,3543,1969,984"]
 
@@ -2447,7 +2447,7 @@ Element["" "sr_0603" "R104" "sr-r-10k" 292520 189763 2662 1181 0 100 ""]
 
 	)
 
-Element["" "0805" "C102" "sr-c-2u2-0805" 249212 114960 -4725 -9450 0 100 ""]
+Element["" "0805" "C102" "sr-c-2u2-0805" 249212 114960 -5513 -9450 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -3895,7 +3895,7 @@ Element["" "1210" "C219" "sr-c-22u-1210" 131889 368898 8662 5512 1 100 ""]
 
 	)
 
-Element["" "SOT23" "Q100" "sr-fet-p-pmv65xp" 238583 122047 -11000 -12300 0 100 ""]
+Element["" "SOT23" "Q100" "sr-fet-p-pmv65xp" 238583 122047 -11000 -17025 0 100 ""]
 (
 	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "square,edge2"]
 	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "square,edge2"]

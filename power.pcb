@@ -1,12 +1,12 @@
 # release: pcb 1.99z
-# date:    Tue Aug 10 22:58:54 2010
+# date:    Tue Aug 10 23:00:01 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["Power Board" 661417 472441]
+PCB["Power Board" 653543 393701]
 
 Grid[196.850388 0 0 1]
 Cursor[0 0 0.000000]

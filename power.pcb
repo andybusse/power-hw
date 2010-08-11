@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Wed Aug 11 02:22:21 2010
-# user:    richard (Richard Barlow)
-# host:    richpc.richardbarlow.co.uk
+# date:    Wed Aug 11 10:46:39 2010
+# user:    rbarlow (Richard Barlow)
+# host:    kneewax.ecs.soton.ac.uk
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["Power Board" 653543 393701]
 
 Grid[393.700775 0 0 1]
-Cursor[0 393701 0.000000]
+Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[783 787 787 787 1969 787]
@@ -2422,7 +2422,7 @@ Element["" "sr_0603" "R238" "sr-r-10k" 285273 85432 7481 12599 0 100 ""]
 
 	)
 
-Element["onsolder" "header2x7_box_1" "J202" "sr-cn-header2x7-box" 121419 239487 -21973 86774 0 100 "auto"]
+Element["onsolder" "header2x7_box_1" "J202" "sr-cn-header2x7-box" 121419 239487 -21973 93073 0 100 "auto"]
 (
 	Pin[0 0 6299 1968 7283 3937 "" "1" "square"]
 	Pin[-10000 0 6299 1968 7283 3937 "" "2" ""]

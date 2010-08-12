@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.625
   9
-$INSUNITS
- 70
-4
-  9
 $DIMEXO
  40
 0.625
+  9
+$INSUNITS
+ 70
+4
   9
 $DIMTXT
  40
@@ -37,17 +37,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMIN
- 10
-0.0
- 20
-0.0
-  9
 $PLIMMAX
  10
 210.0
  20
 297.0
+  9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
   9
 $DIMEXE
  40
@@ -10577,6 +10577,238 @@ ByLayer
  31
 0.0
   0
+ARC
+  5
+192
+100
+AcDbEntity
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+15.0
+ 20
+266.0
+ 30
+0.0
+ 40
+4.0
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+LINE
+  5
+193
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+11.0
+ 20
+266.0
+ 30
+0.0
+ 11
+11.0
+ 21
+161.0
+ 31
+0.0
+  0
+ARC
+  5
+194
+100
+AcDbEntity
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+15.0
+ 20
+161.0
+ 30
+0.0
+ 40
+4.0
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
+  0
+LINE
+  5
+195
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+15.0
+ 20
+157.0
+ 30
+0.0
+ 11
+185.0
+ 21
+157.0
+ 31
+0.0
+  0
+ARC
+  5
+196
+100
+AcDbEntity
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+185.0
+ 20
+161.0
+ 30
+0.0
+ 40
+4.0
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+  0
+LINE
+  5
+197
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+185.0
+ 20
+270.0
+ 30
+0.0
+ 11
+15.0
+ 21
+270.0
+ 31
+0.0
+  0
+LINE
+  5
+198
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+189.0
+ 20
+161.0
+ 30
+0.0
+ 11
+189.0
+ 21
+266.0
+ 31
+0.0
+  0
+ARC
+  5
+199
+100
+AcDbEntity
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+185.0
+ 20
+266.0
+ 30
+0.0
+ 40
+4.0
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
 ENDSEC
   0
 SECTION
@@ -10615,7 +10847,7 @@ E
   3
 AcDbVariableDictionary
 350
-192
+19A
   0
 DICTIONARY
   5
@@ -11079,7 +11311,7 @@ Layout2
   0
 DICTIONARY
   5
-192
+19A
 100
 AcDbDictionary
 281
@@ -11087,15 +11319,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-194
+19C
   3
 HIDETEXT
 350
-193
+19B
   0
 DICTIONARYVAR
   5
-193
+19B
 100
 DictionaryVariables
 280
@@ -11105,7 +11337,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-194
+19C
 100
 DictionaryVariables
 280

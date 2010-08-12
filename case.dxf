@@ -11551,6 +11551,54 @@ T-Slot_Minimal_Hole
  45
 1.0
   0
+CIRCLE
+  5
+1B6
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+32.25
+ 20
+176.7500000000000284
+ 30
+0.0
+ 40
+8.25
+  0
+CIRCLE
+  5
+1B7
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+137.25
+ 20
+176.7500000000000284
+ 30
+0.0
+ 40
+8.25
+  0
 ENDSEC
   0
 SECTION
@@ -11589,7 +11637,7 @@ E
   3
 AcDbVariableDictionary
 350
-1B6
+1B8
   0
 DICTIONARY
   5
@@ -12053,7 +12101,7 @@ Layout2
   0
 DICTIONARY
   5
-1B6
+1B8
 100
 AcDbDictionary
 281
@@ -12061,15 +12109,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-1B8
+1BA
   3
 HIDETEXT
 350
-1B7
+1B9
   0
 DICTIONARYVAR
   5
-1B7
+1B9
 100
 DictionaryVariables
 280
@@ -12079,7 +12127,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-1B8
+1BA
 100
 DictionaryVariables
 280

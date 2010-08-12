@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.625
   9
-$DIMEXO
- 40
-0.625
-  9
 $INSUNITS
  70
 4
+  9
+$DIMEXO
+ 40
+0.625
   9
 $DIMTXT
  40
@@ -37,17 +37,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMAX
- 10
-210.0
- 20
-297.0
-  9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+210.0
+ 20
+297.0
   9
 $DIMEXE
  40
@@ -14919,6 +14919,118 @@ ByLayer
  31
 0.0
   0
+LINE
+  5
+22F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+160.0
+ 20
+349.0
+ 30
+0.0
+ 11
+173.0000000000000284
+ 21
+349.0
+ 31
+0.0
+  0
+LINE
+  5
+230
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+173.0
+ 20
+349.0
+ 30
+0.0
+ 11
+173.0
+ 21
+370.0
+ 31
+0.0
+  0
+LINE
+  5
+231
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+160.0000000000000284
+ 20
+370.0
+ 30
+0.0
+ 11
+160.0000000000000284
+ 21
+349.0
+ 31
+0.0
+  0
+LINE
+  5
+232
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+173.0000000000000568
+ 20
+370.0
+ 30
+0.0
+ 11
+160.0000000000000284
+ 21
+370.0
+ 31
+0.0
+  0
 ENDSEC
   0
 SECTION
@@ -14957,7 +15069,7 @@ E
   3
 AcDbVariableDictionary
 350
-22F
+233
   0
 DICTIONARY
   5
@@ -15421,7 +15533,7 @@ Layout2
   0
 DICTIONARY
   5
-22F
+233
 100
 AcDbDictionary
 281
@@ -15429,15 +15541,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-231
+235
   3
 HIDETEXT
 350
-230
+234
   0
 DICTIONARYVAR
   5
-230
+234
 100
 DictionaryVariables
 280
@@ -15447,7 +15559,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-231
+235
 100
 DictionaryVariables
 280

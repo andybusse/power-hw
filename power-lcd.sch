@@ -8,7 +8,12 @@ device=BeagleBoard
 T 41300 45800 5 10 0 0 0 0 1
 footprint=beagleboard
 T 43450 55150 5 10 1 1 0 0 1
-value=sr-asm-beagleboard
+value=sr-nothing
+T 41600 54300 5 10 1 1 0 6 4
+comment=The value for this is set in the power-msp
+schematic due to the inability for the BOM
+generation script to know this U103 and the
+U103 on that schematic are the same part.
 }
 C 42700 46400 1 0 0 gnd-1.sym
 N 42100 46900 42100 46700 4

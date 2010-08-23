@@ -1399,7 +1399,7 @@ device=RESISTOR
 T 56400 55500 5 10 1 1 0 0 1
 refdes=R329
 T 56400 55300 5 10 1 1 0 0 1
-value=sr-r-10k
+value=sr-r-3k3
 T 56100 55900 5 10 0 1 0 0 1
 footprint=sr_0603
 }
@@ -1410,7 +1410,7 @@ device=RESISTOR
 T 56400 56400 5 10 1 1 0 0 1
 refdes=R327
 T 56400 56200 5 10 1 1 0 0 1
-value=sr-r-3k3
+value=sr-r-10k
 T 56100 56800 5 10 0 1 0 0 1
 footprint=sr_0603
 }

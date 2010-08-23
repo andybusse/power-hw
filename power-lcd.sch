@@ -200,7 +200,7 @@ device=TB62752AFUG
 T 47600 59600 5 10 1 1 0 0 1
 value=sr-ic-tb62752afug
 T 47000 59800 5 10 0 1 0 0 1
-footprint=SOT26
+footprint=SOT262
 }
 C 49800 62300 1 0 1 diode-3.sym
 {

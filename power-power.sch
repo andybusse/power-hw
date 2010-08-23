@@ -1423,7 +1423,7 @@ refdes=C309
 T 54900 56600 5 10 0 0 270 2 1
 symversion=0.1
 T 55300 56200 5 10 1 1 0 6 1
-value=sr-c-220p-50v
+value=sr-c-10p-50v
 T 55800 56800 5 10 0 1 0 6 1
 footprint=sr_0603
 }

@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Aug 11 11:42:56 2010
+# date:    Fri Aug 27 17:49:20 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -2692,14 +2692,14 @@ Element["" "sr_0603" "R102" "sr-r-1k" 247405 121653 11651 2203 1 100 ""]
 
 	)
 
-Element["" "fuse_sil_1" "F304" "sr-cn-fuse-sil" 567481 172047 -16457 9450 0 100 ""]
+Element["onsolder" "fuse_sil_1" "F304" "sr-cn-fuse-sil" 567481 172047 4410 15352 0 100 "auto"]
 (
 	Pin[10000 0 8661 1968 9646 3937 "" "1" "edge2"]
 	Pin[-10000 0 8661 1968 9646 3937 "" "2" "edge2"]
-	ElementLine [-16535 -8661 16535 -8661 984]
-	ElementLine [-16535 -8661 -16535 8661 984]
 	ElementLine [-16535 8661 16535 8661 984]
-	ElementLine [16535 -8661 16535 8661 984]
+	ElementLine [-16535 8661 -16535 -8661 984]
+	ElementLine [-16535 -8661 16535 -8661 984]
+	ElementLine [16535 8661 16535 -8661 984]
 
 	)
 

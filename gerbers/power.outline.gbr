@@ -1,7 +1,7 @@
 G04 start of page 4 for group 2 idx 4 *
 G04 Title: Power Board, outline *
 G04 Creator: pcb 1.99z *
-G04 CreationDate: Wed 11 Aug 2010 10:43:57 GMT UTC *
+G04 CreationDate: Thu 09 Sep 2010 23:06:34 GMT UTC *
 G04 For: rbarlow *
 G04 Format: Gerber/RS-274X *
 G04 PCB-Dimensions: 653543 393701 *
@@ -9,8 +9,8 @@ G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
 %LNOUTLINE*%
-%ADD13C,0.0100*%
-G54D13*X12205Y384056D02*X498425D01*
+%ADD12C,0.0100*%
+G54D12*X12205Y384056D02*X498425D01*
 Y256103D01*
 X642126D01*
 X12205Y10040D02*Y384056D01*

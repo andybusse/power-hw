@@ -7,14 +7,15 @@ Board Reference:  srobo_power
 Board Issue:      A
 --------------------------------------------------------------------------------
 Board Details:
-Bare Board Test:  Yes
-Layers:           2
-Copper Weight:    1oz
-Finish:           Gold
-Material:         1.6mm FR4
-Solder Resist:    GREEN on 2 sides
-Silk Screen:      WHITE on 2 sides
-Panelisation:     Manufacturing Panels
+Bare Board Test:      Yes
+Layers:               2
+Copper Weight:        1oz
+Finish:               Gold
+Material:             1.6mm FR4
+Solder Resist:        GREEN on 2 sides
+Silk Screen:          WHITE on 2 sides
+Panelisation:         Manufacturing Panels
+Circuits per Panel:   1
 --------------------------------------------------------------------------------
 Please step up the boards to fit on a panel size no greater than 285mm x 185mm
 Add 1mm fiducials to 3 corners of the panel on the top side.

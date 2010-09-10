@@ -20,8 +20,8 @@ Circuits per Panel:   1
 Please step up the boards to fit on a panel size no greater than 285mm x 185mm
 Add 1mm fiducials to 3 corners of the panel on the top side.
 Place 3mm locating holes in each corner of the panel border.
-Return the stepped up gerber for the solder paste (*.SPT) - Please include the
-postions of the fiducials on the stepped up gerber.
+Return the stepped up gerber for the solder paste (*paste.gbr) - Please include
+the postions of the fiducials on the stepped up gerber.
 --------------------------------------------------------------------------------
 Layer Order:
 front

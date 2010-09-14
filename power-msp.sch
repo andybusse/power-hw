@@ -2164,7 +2164,7 @@ refdes=J204
 T 42600 48700 5 10 0 0 0 0 1
 footprint=JUMPER4
 T 42600 50100 5 10 1 1 0 0 1
-value=sr-cn-header4
+value=sr-cn-socket4
 }
 N 44300 49200 45800 49200 4
 N 44300 49500 45800 49500 4

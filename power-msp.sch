@@ -1718,12 +1718,12 @@ N 59600 39000 65200 39000 4
 N 65200 39000 65200 37700 4
 C 64800 54900 1 0 0 switch-pushbutton-no-2.sym
 {
-T 64900 55700 5 10 1 1 0 0 1
+T 64600 55700 5 10 1 1 0 0 1
 refdes=S200
 T 65200 55500 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
-T 64900 55500 5 10 1 1 0 0 1
-value=sr-sw-button
+T 64600 55500 5 10 1 1 0 0 1
+value=sr-sw-button-12.5mm
 T 64800 54900 5 10 0 0 0 0 1
 footprint=tact_sw_1
 }
@@ -1823,12 +1823,12 @@ netname=12V_logic
 }
 C 68200 54900 1 0 0 switch-pushbutton-no-2.sym
 {
-T 68300 55700 5 10 1 1 0 0 1
+T 68000 55700 5 10 1 1 0 0 1
 refdes=S201
 T 68600 55500 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
-T 68300 55500 5 10 1 1 0 0 1
-value=sr-sw-button
+T 68000 55500 5 10 1 1 0 0 1
+value=sr-sw-button-12.5mm
 T 68200 54900 5 10 0 0 0 0 1
 footprint=tact_sw_1
 }
@@ -1867,12 +1867,12 @@ netname=3V3
 }
 C 71800 54900 1 0 0 switch-pushbutton-no-2.sym
 {
-T 71900 55700 5 10 1 1 0 0 1
+T 71600 55700 5 10 1 1 0 0 1
 refdes=S202
 T 72200 55500 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
-T 71900 55500 5 10 1 1 0 0 1
-value=sr-sw-button
+T 71600 55500 5 10 1 1 0 0 1
+value=sr-sw-button-12.5mm
 T 71800 54900 5 10 0 0 0 0 1
 footprint=tact_sw_1
 }

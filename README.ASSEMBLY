@@ -1,0 +1,10 @@
+- The beagleboard foorprint (U103) consists of 3 separate footprints, a
+  2x14 way 2.54mm header and 2 2x10 headers.
+
+- The 2x14 way 2.54mm header in the beagleboard footprint (U103) consists
+  of two separate 2x4 way headers mounted at either end leaving 2x6 holes
+  unpopulated inbetween them.
+
+- The 2x4 way headers mentioned above are to be mounted with the long pins
+  into the board giving the same overall height above the board as the 2x10
+  1.27mm headers.

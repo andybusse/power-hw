@@ -1,6 +1,6 @@
 # $Id$
 # PcbXY Version 1.0
-# Date: Sun 17 Oct 2010 23:37:20 GMT UTC
+# Date: Mon 18 Oct 2010 00:06:58 GMT UTC
 # Author: Richard Barlow
 # Title: Power Board - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -20,7 +20,7 @@ Q308,"SOT323","sr-fet-n-sn7002w",3447.14,1887.54,180,bottom
 C314,"1210","sr-c-22u-1210",3517.72,2188.97,270,bottom
 D302,"DO214AC","sr-d-15mq040n",4399.61,2188.98,0,bottom
 C317,"sr_0603","sr-c-100n",4090.55,1805.48,90,bottom
-J204,"JUMPER4","sr-cn-header4",834.65,2086.23,270,bottom
+J204,"JUMPER4","sr-cn-socket4",834.65,2086.23,270,bottom
 C219,"1210","sr-c-22u-1210",1318.89,248.03,0,top
 C218,"1210","sr-c-22u-1210",559.06,2838.58,180,bottom
 F202,"1206","sr-fuse-r50-1206",460.63,909.46,180,top
@@ -123,7 +123,7 @@ R207,"sr_0603","sr-r-160k",202.40,2043.31,0,top
 R212,"sr_0603","sr-r-160k",438.62,2043.31,180,top
 C301,"0805","sr-c-1u-0805",4527.56,1173.23,180,top
 R313,"sr_0603","sr-r-100k",4505.55,1629.93,180,top
-S202,"tact_sw_1","sr-sw-button",5003.94,1438.98,90,top
+S202,"tact_sw_1","sr-sw-button-12.5mm",5003.94,1438.98,90,top
 C302,"sr_0603","sr-c-100n",4607.91,1578.75,0,top
 R303,"sr_0603","sr-r-100k",4082.68,2915.72,90,top
 R314,"sr_0603","sr-r-100",5584.65,1370.09,180,top
@@ -156,7 +156,7 @@ LED204,"PLCC2","sr-led-yellow-plcc2",1681.10,637.80,270,top
 Q302,"SOT23","sr-fet-p-bss84lt1g",4728.12,972.82,90,top
 LED300,"sr_0603_led","sr-led-red-0603",5811.02,1192.92,180,top
 Q304,"D_PAK","sr-fet-n-irlr8743",6165.36,484.78,180,top
-S200,"tact_sw_1","sr-sw-button",338.58,2669.29,180,top
+S200,"tact_sw_1","sr-sw-button-12.5mm",338.58,2669.29,180,top
 LED208,"PLCC2","sr-led-yellow-plcc2",1472.44,637.80,270,top
 LED303,"PLCC2","sr-led-green-plcc2",6240.16,2070.87,0,top
 C316,"sr_0603","sr-c-100n",5485.87,1576.78,0,top
@@ -175,7 +175,7 @@ U104,"TSSOP48","sr-ic-sn74lvc16t245",2300.05,1757.78,180,top
 S203,"rotary_enc_1","sr-sw-rotary-12mm-pb",604.35,571.44,0,top
 C300,"sr_0603","sr-c-470n",4370.08,1308.70,90,top
 R100,"sr_0603","sr-r-15",1277.92,2791.34,0,top
-S201,"tact_sw_1","sr-sw-button",5003.94,1872.05,90,top
+S201,"tact_sw_1","sr-sw-button-12.5mm",5003.94,1872.05,90,top
 D301,"SOT23","sr-d-gsot15",298.77,2555.12,180,bottom
 D303,"SOT23","sr-d-gsot15",267.95,807.46,180,bottom
 U300,"SO8","sr-ic-lm2904",4500.20,1381.76,0,top
@@ -231,7 +231,7 @@ U203,"TSSOP8","sr-ic-txs0102",1844.49,1182.10,90,top
 J302,"camcon2","sr-cn-camcon2w",2435.06,348.44,180,bottom
 J304,"camcon2","sr-cn-camcon2w",3143.71,348.44,180,bottom
 R224,"sr_0603","sr-r-10k",2311.01,1178.78,270,top
-U201,"TQFP64_10","sr-ic-msp430f247",3498.82,2694.89,180,top
+U201,"TQFP64_10","sr-ic-msp430f167",3498.82,2694.89,180,top
 R310,"sr_0603","sr-r-1k",5926.81,1192.92,0,top
 R209,"sr_0603","sr-r-330",263.78,2123.66,90,top
 R311,"sr_0603","sr-r-13k3",4263.78,2809.42,270,top

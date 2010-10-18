@@ -1,5 +1,5 @@
 - The beagleboard foorprint (U103) consists of 3 separate footprints, a
-  2x14 way 2.54mm header and 2 2x10 headers.
+  2x14 way 2.54mm header and 2 2x10 1.27mm headers.
 
 - The 2x14 way 2.54mm header in the beagleboard footprint (U103) consists
   of two separate 2x4 way headers mounted at either end leaving 2x6 holes
@@ -8,3 +8,12 @@
 - The 2x4 way headers mentioned above are to be mounted with the long pins
   into the board giving the same overall height above the board as the 2x10
   1.27mm headers.
+
+- The silk on the board for the PLCC2 LEDs does not indicate the polarity.
+  Refer to the silk layer in the gerbers to check the polarity, the notch
+  on the corner of the silk corresponds with the notch on the corner of
+  the LED.
+
+- The XYRS file does not have correct rotations for components which are
+  non-orthogonal. There are 5 components which are non-orthogonal:
+  R104, C108, C110, U102 & U104

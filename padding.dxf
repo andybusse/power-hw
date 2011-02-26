@@ -21,33 +21,37 @@ $DIMGAP
  40
 0.625
   9
-$DIMEXO
- 40
-0.625
-  9
 $INSUNITS
  70
 4
   9
-$GRIDMODE
- 70
-1
+$DIMEXO
+ 40
+0.625
   9
 $DIMTXT
  40
 2.5
   9
-$PLIMMAX
- 10
-210.0
- 20
-297.0
+$GRIDMODE
+ 70
+1
+  9
+$DIMSTYLE
+  2
+Standard
   9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+210.0
+ 20
+297.0
   9
 $DIMEXE
  40
@@ -1321,90 +1325,6 @@ AcDbLine
   6
 ByLayer
  10
-12.0
- 20
-11.0
- 30
-0.0
- 11
-117.0
- 21
-11.0
- 31
-0.0
-  0
-LINE
-  5
-46
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-117.0
- 20
-11.0
- 30
-0.0
- 11
-117.0
- 21
-76.0
- 31
-0.0
-  0
-LINE
-  5
-47
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-102.0
- 20
-11.0
- 30
-0.0
- 11
-77.0
- 21
-11.0
- 31
-0.0
-  0
-LINE
-  5
-48
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
 117.0
  20
 59.0
@@ -1419,7 +1339,7 @@ ByLayer
   0
 LINE
   5
-49
+46
 100
 AcDbEntity
 100
@@ -1447,7 +1367,7 @@ ByLayer
   0
 LINE
   5
-4A
+47
 100
 AcDbEntity
 100
@@ -1475,91 +1395,91 @@ ByLayer
   0
 LINE
   5
+48
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+97.0
+ 20
+23.0
+ 30
+0.0
+ 11
+97.0
+ 21
+11.0
+ 31
+0.0
+  0
+LINE
+  5
+49
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+77.0
+ 20
+11.0
+ 30
+0.0
+ 11
+77.0
+ 21
+23.0
+ 31
+0.0
+  0
+LINE
+  5
+4A
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+77.0
+ 20
+23.0
+ 30
+0.0
+ 11
+97.0
+ 21
+23.0
+ 31
+0.0
+  0
+LINE
+  5
 4B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-97.0
- 20
-23.0
- 30
-0.0
- 11
-97.0
- 21
-11.0
- 31
-0.0
-  0
-LINE
-  5
-4C
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-77.0
- 20
-11.0
- 30
-0.0
- 11
-77.0
- 21
-23.0
- 31
-0.0
-  0
-LINE
-  5
-4D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-77.0
- 20
-23.0
- 30
-0.0
- 11
-97.0
- 21
-23.0
- 31
-0.0
-  0
-LINE
-  5
-4E
 100
 AcDbEntity
 100
@@ -1587,7 +1507,7 @@ ByLayer
   0
 LINE
   5
-4F
+4C
 100
 AcDbEntity
 100
@@ -1615,7 +1535,7 @@ ByLayer
   0
 LINE
   5
-50
+4D
 100
 AcDbEntity
 100
@@ -1638,6 +1558,90 @@ ByLayer
 53.0
  21
 34.0
+ 31
+0.0
+  0
+LINE
+  5
+4E
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+53.0
+ 20
+34.0
+ 30
+0.0
+ 11
+17.0
+ 21
+34.0
+ 31
+0.0
+  0
+LINE
+  5
+4F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+17.0
+ 20
+34.0
+ 30
+0.0
+ 11
+17.0
+ 21
+50.0
+ 31
+0.0
+  0
+LINE
+  5
+50
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+117.0
+ 20
+59.0
+ 30
+0.0
+ 11
+117.0
+ 21
+76.0
  31
 0.0
   0
@@ -1657,15 +1661,15 @@ AcDbLine
   6
 ByLayer
  10
-53.0
+117.0
  20
-34.0
+11.0
  30
 0.0
  11
-17.0
+117.0
  21
-34.0
+31.0
  31
 0.0
   0
@@ -1685,15 +1689,71 @@ AcDbLine
   6
 ByLayer
  10
-17.0
+102.0
  20
-34.0
+11.0
  30
 0.0
  11
-17.0
+97.0
  21
-50.0
+11.0
+ 31
+0.0
+  0
+LINE
+  5
+53
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+12.0
+ 20
+11.0
+ 30
+0.0
+ 11
+77.0
+ 21
+11.0
+ 31
+0.0
+  0
+LINE
+  5
+54
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+97.0
+ 20
+11.0
+ 30
+0.0
+ 11
+117.0
+ 21
+11.0
  31
 0.0
   0
@@ -1735,7 +1795,7 @@ E
   3
 AcDbVariableDictionary
 350
-53
+55
   0
 DICTIONARY
   5
@@ -2199,7 +2259,7 @@ Layout2
   0
 DICTIONARY
   5
-53
+55
 100
 AcDbDictionary
 281
@@ -2207,15 +2267,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-55
+57
   3
 HIDETEXT
 350
-54
+56
   0
 DICTIONARYVAR
   5
-54
+56
 100
 DictionaryVariables
 280
@@ -2225,7 +2285,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-55
+57
 100
 DictionaryVariables
 280

@@ -6,7 +6,7 @@ FileVersion[20100606]
 PCB["Power Board" 653543 393701]
 
 Grid[100.0 0 0 1]
-Cursor[264100 9800 0.000000]
+Cursor[200300 332000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[783 787 787 787 1969 787]
@@ -7618,6 +7618,14 @@ Layer(7 "silk")
 	Text[582676 182285 0 221 "3V3" ""]
 	Text[588584 163386 0 221 "5V" ""]
 	Text[555905 144488 0 221 "CHARGE" ""]
+	Text[225000 361000 0 400 "-" "clearline"]
+	Text[296000 361000 0 400 "-" "clearline"]
+	Text[367000 361000 0 400 "-" "clearline"]
+	Text[154000 361000 0 400 "-" "clearline"]
+	Text[183000 361000 0 400 "+" "clearline"]
+	Text[254000 361000 0 400 "+" "clearline"]
+	Text[325000 361000 0 400 "+" "clearline"]
+	Text[396000 361000 0 400 "+" "clearline"]
 )
 NetList()
 (

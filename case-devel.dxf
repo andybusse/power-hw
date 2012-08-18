@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.625
   9
-$DIMEXO
- 40
-0.625
-  9
 $INSUNITS
  70
 4
+  9
+$DIMEXO
+ 40
+0.625
   9
 $DIMTXT
  40
@@ -37,17 +37,21 @@ $DIMSTYLE
   2
 Standard
   9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
 $PLIMMAX
  10
 210.0
  20
 297.0
   9
-$PLIMMIN
- 10
-0.0
- 20
-0.0
+$DIMEXE
+ 40
+1.25
   9
 $PINSBASE
  10
@@ -56,10 +60,6 @@ $PINSBASE
 -18.9999999999999787
  30
 0.0
-  9
-$DIMEXE
- 40
-1.25
   0
 ENDSEC
   0
@@ -13435,7 +13435,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13495,7 +13495,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13555,7 +13555,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -20711,7 +20711,7 @@ AcDbEntity
 100
 AcDbLine
   8
-support_2
+side_cuts
  62
 256
 370

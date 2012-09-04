@@ -6,7 +6,7 @@ FileVersion[20100606]
 PCB["Power Board" 165.9999mm 100.0001mm]
 
 Grid[393.700787 0.0000 0.0000 0]
-Cursor[31.0000mm 37.6000mm 0.000000]
+Cursor[35.9000mm 14.9000mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.83mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -1318,8 +1318,8 @@ Via[128.2000mm 84.0000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[126.1000mm 75.4000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[138.8001mm 58.5000mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(2S)"]
 Via[133.5999mm 62.1000mm 36.00mil 0.3978mm 0.0000 20.00mil "" "thermal(2S)"]
-Via[146.7000mm 66.4000mm 55.12mil 20.00mil 0.0000 39.37mil "" ""]
 Via[158.2001mm 79.9000mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
+Via[146.7000mm 66.4000mm 55.12mil 20.00mil 0.0000 39.37mil "" ""]
 
 Element["onsolder" "battcon" "J303" "sr-cn-battcon" 143.6002mm 86.6996mm -224.43mil 366.15mil 0 100 "auto"]
 (
@@ -1777,7 +1777,7 @@ Element["" "SOT323" "Q200" "sr-fet-n-sn7002w" 75.8220mm 336.20mil -20.95mil 73.1
 
 	)
 
-Element["onsolder" "sr_0603" "C304" "sr-c-470n" 141.7409mm 60.3999mm 64.42mil 27.57mil 0 100 "auto"]
+Element["onsolder" "sr_0603" "C304" "sr-c-470n" 141.7409mm 60.3999mm 8.0363mm -3.3997mm 0 100 "auto"]
 (
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
@@ -4116,7 +4116,15 @@ Element["onsolder" "sr_0603" "R333" "sr-r-10M" 126.1000mm 77.5000mm -2.3000mm -1
 
 	)
 
-Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 153.6000mm 61.4500mm 0.0000 221.00mil 0 100 "auto"]
+Element["onsolder" "RADIAL_CAN-350" "C321" "sr-c-470u" 151.1000mm 59.7000mm -175.00mil 263.00mil 1 100 "auto"]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 176.00mil 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" ""]
+	ElementArc [0.0000 88.00mil 175.00mil 175.00mil 270 360 10.00mil]
+
+	)
+
+Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 158.0000mm 61.9500mm 0.0000 221.00mil 0 100 "auto"]
 (
 	Pad[0.0000 -102.36mil 0.0000 -66.93mil 68.90mil 20.00mil 74.90mil "1" "1" "onsolder,square"]
 	Pad[0.0000 66.93mil 0.0000 102.36mil 68.90mil 20.00mil 74.90mil "2" "2" "onsolder,square,edge2"]
@@ -4126,15 +4134,6 @@ Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 153.6000mm 61.4500mm 0.0000 2
 	ElementLine [-59.06mil 156.50mil 59.06mil 156.50mil 10.00mil]
 	ElementLine [-59.06mil -86.50mil -59.06mil 156.50mil 10.00mil]
 	ElementLine [-42.06mil -156.50mil -59.06mil -86.50mil 10.00mil]
-
-	)
-
-Element["onsolder" "1210" "C321" "sr-c-22u-1210" 150.0000mm 62.9001mm -127.50mil -79.50mil 1 100 "auto"]
-(
-	Pad[-27.55mil -59.05mil 27.55mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
-	Pad[-27.55mil 59.05mil 27.55mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
 
 	)
 Layer(1 "component")
@@ -7082,14 +7081,14 @@ Layer(2 "solder")
 	Line[133.5999mm 62.1000mm 133.5999mm 58.5000mm 25.00mil 20.00mil "clearline"]
 	Line[158.3000mm 79.8001mm 158.2001mm 79.9000mm 25.00mil 20.00mil "clearline"]
 	Line[158.2000mm 79.9001mm 158.2000mm 68.2000mm 47.24mil 20.00mil "clearline"]
-	Line[158.2000mm 68.2000mm 153.6000mm 63.6000mm 47.24mil 20.00mil "clearline"]
-	Line[150.0000mm 64.4000mm 152.8000mm 64.4000mm 47.24mil 20.00mil "clearline"]
-	Line[152.8000mm 64.4000mm 153.6000mm 63.6000mm 47.24mil 20.00mil "clearline"]
-	Line[153.6000mm 59.3000mm 152.1002mm 59.3000mm 47.24mil 20.00mil "clearline"]
-	Line[146.7000mm 66.4000mm 146.7000mm 62.2000mm 47.24mil 20.00mil "clearline"]
-	Line[146.7000mm 62.2000mm 147.4000mm 61.5000mm 47.24mil 20.00mil "clearline"]
-	Line[147.4000mm 61.5000mm 149.9003mm 61.5000mm 47.24mil 20.00mil "clearline"]
-	Line[152.1002mm 59.3000mm 149.9003mm 61.5000mm 47.24mil 20.00mil "clearline"]
+	Line[158.0000mm 64.1000mm 158.0000mm 68.0000mm 47.24mil 20.00mil "clearline"]
+	Line[158.0000mm 68.0000mm 158.2000mm 68.2000mm 47.24mil 20.00mil "clearline"]
+	Line[151.1000mm 64.1704mm 157.9296mm 64.1704mm 47.24mil 20.00mil "clearline"]
+	Line[157.9296mm 64.1704mm 158.0000mm 64.1000mm 47.24mil 20.00mil "clearline"]
+	Line[158.0000mm 59.8000mm 151.2000mm 59.8000mm 47.24mil 20.00mil "clearline"]
+	Line[151.2000mm 59.8000mm 151.1000mm 59.7000mm 47.24mil 20.00mil "clearline"]
+	Line[146.7000mm 66.4000mm 146.7000mm 64.1000mm 47.24mil 20.00mil "clearline"]
+	Line[146.7000mm 64.1000mm 151.1000mm 59.7000mm 47.24mil 20.00mil "clearline"]
 	Text[410.00mil 1681.00mil 0 200 "IN" "clearline,onsolder"]
 	Text[410.00mil 2431.00mil 0 200 "OUT" "clearline,onsolder"]
 	Polygon("clearpoly")

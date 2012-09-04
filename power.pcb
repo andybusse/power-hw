@@ -4119,7 +4119,7 @@ Element["onsolder" "sr_0603" "R333" "sr-r-10M" 126.1000mm 77.5000mm -2.3000mm -1
 Element["onsolder" "RADIAL_CAN-350" "C321" "sr-c-470u" 151.1000mm 59.7000mm -175.00mil 263.00mil 1 100 "auto"]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square"]
-	Pin[0.0000 176.00mil 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" ""]
+	Pin[0.0000 176.00mil 60.00mil 0.0000 66.00mil 30.00mil "2" "2" "selected"]
 	ElementArc [0.0000 88.00mil 175.00mil 175.00mil 270 360 10.00mil]
 
 	)
